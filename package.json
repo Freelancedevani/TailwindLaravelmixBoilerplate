@@ -1,0 +1,22 @@
+{
+  "name": "TailwindLaravelmixBoilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mix",
+    "watch": "mix watch",
+    "prod": "cross-env NODE_ENV=production npm run build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "browser-sync": "^2.27.5",
+    "browser-sync-webpack-plugin": "2.3.0",
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.27",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {}
+}
